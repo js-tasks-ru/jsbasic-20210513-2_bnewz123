@@ -13,7 +13,7 @@ function isValid(name) {
   // ваш код...
   if (name === null) {
     return false;
-  } else if (name.length >= 4 && name !== null && !name.includes(" ")) {
+  } else if (name.length >= 4 && !name.includes(" ")) {
     return true;
   }
   return false;
